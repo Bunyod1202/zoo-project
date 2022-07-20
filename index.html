@@ -5,14 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veterinary clinic</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
-  
-  
-  
   <!-- SITE HEADER START -->
   
   <header class="site-header">
@@ -63,7 +60,7 @@
                 <a href="#" class="nav__list-link">О Клинике</a>
               </li>
               <li class="nav__list-item">
-                <a href="#" class="nav__list-link">Наши Услуги</a>
+                <a href="./services.html" class="nav__list-link">Наши Услуги</a>
               </li>
               <li class="nav__list-item">
                 <a href="#" class="nav__list-link">Полезные Статьи</a>
@@ -419,6 +416,24 @@
       
     </footer>
     <!-- SITE FOOTER END -->
-    
+    <div class="modal">
+      <div class="modal-card">
+        <button class="close-btn" type="button"><img src="./images/close.svg" alt="close"></button>
+        <div class="modal__btn-group">
+          <p class="modal__text">Авторизация:</p>
+          <a class="google" href="#" target="blank">Войти через Google</a>
+          <a class="fasebook" href="#" target="blank">Войти через Facebook</a>
+        </div>
+        <div class="modal__form">
+          <h3 class="modal__title">Задать вопрос</h3>
+          <form class="form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+            <input class="input" aria-label="enter your name" type="text" name="last_name" minlength="2" placeholder="Ваше имя" required>
+            <textarea class="textarea" aria-label="enter your text" placeholder="Опишите Ваш вопрос." name="feedback" cols="30" rows="10"></textarea>
+            <button class="btn-dark" type="submit">Отправить </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
   </body>
   </html>
