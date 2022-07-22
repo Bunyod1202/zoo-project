@@ -1568,3 +1568,104 @@ top: 100px;
 /* useful articles start */
 
 /* useful articles finish */
+/* services open start */
+.hero-img {
+  background-image: url("../images/Rectangle.png");
+  background-position: center;
+  padding-bottom: 497px;
+}
+.inspection-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 0 174px 0;
+  margin-left: 100px;
+}
+.aside-list {
+  flex-direction: column-reverse;
+}
+.aside-list .articles-list__item:nth-child(1) {
+  margin-top: 11px;
+}
+.inspection-contant {
+  width: 640px;
+} 
+.inspection-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.inspection-list-item:not(:last-child) {
+  margin-right: 18px;
+  position: relative;
+}
+.inspection-list-item:not(:last-child)::after {
+ content: "";
+ position: absolute;
+ right: -10px;
+ top: 10px;
+ width: 3px;
+ height: 3px;
+ border-radius: 50%;  
+ background-color: var(--color-ffbd54);
+
+}
+.inspection-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--main-text-color);
+}
+.inspection-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--main-text-color);
+  margin: 33px 0 28px 0;
+}
+.inspection-title span {
+color: var(--color-ffbd54);
+}
+.inspection-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color94);
+}
+.inspection-text:not(:last-child) {
+margin-bottom: 22px;
+}
+.notification-form-group {
+  display: flex;
+  margin: 0;
+} 
+.notification-form-group::after {
+  width: 811px;
+  height: 636px;
+  background-size:cover;
+  top: -62px;
+  left: 550px;
+}
+.form-inspection {
+  width: 335px;
+}
+.contant-inspection {
+  width: 276px;
+}
+.contant-inspection .form-group__title {
+  line-height: 62px;
+  margin-bottom: 8px;
+}
+.notification-text {
+  margin: 0;
+  font-weight: 500;
+font-size: 26px;
+line-height: 30px;
+color: var(--text-color-white);
+}
+.notification .input {
+border-radius: 0;
+margin-bottom: 14px;
+}
+/* services open finish */
