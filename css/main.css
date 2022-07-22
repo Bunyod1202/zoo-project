@@ -76,11 +76,10 @@ body{
   padding: 0;
   font-family: "FuturaPT", "Arial", sans-serif;
   background-image: url("../images/bg.png");
-  
   background-position: calc(50% + -36px) calc(100% + -214px);
   background-color: #F9F9F9;
   /* font-size: 16px; */
-  /* font-weight: 400; */
+  font-weight: 400;
   /* line-height: var(--main-line-height); */
 }
 @media
@@ -1565,8 +1564,197 @@ top: 100px;
   width: 100%;
 }
 /* contact section finish */
+
 /* useful articles start */
 
+
+/* SECTION ARTICLES START */
+.articles {
+  padding: 110px 0px 132px 0px;
+  background-image: url("../images/articles-catbg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 317px) calc(50% + 0px);
+  background-size: 415px 317px;
+}
+.articles-box {
+  width: 560px;
+}
+.articles-box__title {
+  margin: 0px 0px 21px 0px;
+  font-size: 70px;
+  line-height: 64px;
+  font-weight: 700;
+color: #333333;
+}
+.article-box__text-box{
+  width: 447px;
+}
+.articles-box__text {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+color: #949494;
+}
+/* SECTION ARTICLES END */
+
+/* SECTION DOGS START */
+.dogs{
+  padding-bottom: 150px;
+}
+.dogs-box {
+  display: flex;
+  margin-bottom: 126px;
+  background-color: #F3F3F3;
+}
+.dogs-box__wrap {
+  padding: 68px 110px 68px 82px;
+}
+.dogs-box__link-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.dogs-box__list {
+  display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.dogs-box__link {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+color: #3D9CEA;
+}
+.dogs-box__time {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+color: #949494;
+}
+.dogs-box__text-box{
+  width: 517px;
+}
+.dogs-box__title-box{
+  width: 325px;
+}
+.dogs-box__title {
+  margin: 0px 0px 20px 0px;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+color: #333333;
+}
+.dogs-box__text {
+  margin: 0px 0px 48px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+color: #949494;
+}
+.dogs-box__link-learn,
+.dogs-list__link  {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+color: #333333;
+}
+.dogs-box__link-learn::before,
+.dogs-list__link::before{
+  width: 23px;
+  height: 21px;
+  margin-right: 5px;
+  background-image: url("../images/pet.svg");
+  background-size: contain;
+  content: "";
+}
+
+.dogs-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 52px 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+.dogs-list__item {
+  width: 305px;
+  margin-right: 26px;
+  margin-bottom: 60px;
+  background-color: #FEFEFE;
+border: 1px solid #E4E4E2;
+border-radius: 5px;
+}
+.dogs-list__item:nth-child(4){
+  margin-right: 0px;
+}
+.dogs-list__item:nth-child(8){
+  margin-right: 0px;
+}
+.dogs-list__box {
+  margin: 21px 22px 35px 30px;
+}
+.dogs-list__time {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+color: #949494;
+}
+.list__title-box {
+  width: 182px;
+}
+.dogs-list__title {
+  margin: 0px 0px 10px 0px;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+color: #000000;
+}
+.dogs-list__text {
+  margin: 0px 0px 34px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+color: #949494;
+}
+.dogs-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 16px 40px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+color: #FFFFFF;
+background-color: #333333;
+border-radius: 3px;
+}
+.dogs-btn:hover{
+  color: #333333;
+  background-color: #FFBD54;
+  border-color: transparent;
+border-radius: 3px;
+}
+.dogs-btn:active{
+  opacity: 0.6;
+}
+.dogs-btn::before{
+  width: 19px;
+  height: 16px;
+  margin-right: 6px;
+  background-image: url("../images/refresh-icon.svg");
+  content: "";
+}
+/* SECTION DOGS END */
+/* useful articles finish */
+=======
 /* useful articles finish */
 /* services open start */
 .hero-img {
@@ -1669,3 +1857,4 @@ border-radius: 0;
 margin-bottom: 14px;
 }
 /* services open finish */
+
